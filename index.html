@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness Website</title>
     <link rel="stylesheet" href="index.css">
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" ></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"  />
 
 </head>
 <body>
@@ -76,7 +77,7 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia blanditiis atque, quia qui modi optio, maxime perferendis dolorem vel totam voluptatum soluta, consectetur vero voluptatem? Sequi accusantium sapiente ratione ut!</p> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo veniam, quae magni aut minima molestiae autem, debitis placeat quas suscipit ex fugiat laborum esse saepe voluptatem asperiores? Saepe, facilis quasi?</p></div>
             <div class="col-md-6 wow fadeInRight">
               <div class=" embed-responsive embed-responsive-16by9">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/X655B4ISakg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/X655B4ISakg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                </div>
             </div>
            </div>
@@ -111,109 +112,106 @@
     <!-- Feature Section -->
 
     <section id="features">
+      <!-- Optional overlay to darken or tint the background -->
+      <div class="overlay"></div>
+      
       <div class="container">
-        <div class="row ">
-          <div class="col-md-6">
-            <img src="images/feature.png" class="img-fluid">
-          </div>
-          <div class="col-md-6">
-            <div class="feature-box">
-              <div class="feature-left">
-                <i class="fa fa-trophy"></i>
-
-              </div>
-              <div class="feature-right">
-                <h4>Certified Trainers</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit aperiam reprehenderit .</p>
-              </div>
-            </div>
-
-            <div class="feature-box">
-              <div class="feature-left">
-                <i class="fa fa-heartbeat"></i>
-
-              </div>
-              <div class="feature-right">
-                <h4>Free Consultantation</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit aperiam reprehenderit .  </p>
-              </div>
-            </div>
-
-            <div class="feature-box">
-              <div class="feature-left">
-                <i class="fa fa-linkedin-square" ></i>
-
-              </div>
-              <div class="feature-right">
-                <h4>Flexible Time</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit aperiam reprehenderit .</p>
-              </div>
-            </div>
+        <div class="row align-items-center">
+          
+          <!-- Left Column: Foreground Image -->
+          <div class="col-md-6 text-center text-md-start trainer-image">
+            <img src="images/feature.png" alt="Trainers" class="img-fluid" />
           </div>
           
-        </div>
-      </div>
+          <!-- Right Column: Feature Items -->
+          <div class="col-md-6 features-content">
+            
+            <!-- Feature 1 -->
+            <div class="feature-item d-flex align-items-start mb-4">
+              <i class="fa fa-trophy fa-2x me-3"></i>
+              <div>
+                <h4>Certified Trainers</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            
+            <!-- Feature 2 -->
+            <div class="feature-item d-flex align-items-start mb-4">
+              <i class="fa fa-comments fa-2x me-3"></i>
+              <div>
+                <h4>Free Consultation</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            
+            <!-- Feature 3 -->
+            <div class="feature-item d-flex align-items-start">
+              <i class="fa fa-clock fa-2x me-3"></i>
+              <div>
+                <h4>Flexible Time</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            
+          </div> <!-- End Right Column -->
+        </div> <!-- End Row -->
+      </div> <!-- End Container -->
     </section>
 
     <!-- Testimonial-Section -->
 
     <section id="testimonial">
-      <div class="cotainer">
-        <h1 class="text-center">Meet our Users</h1>
-        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Eveniet molestias in culpa a iure nulla. Illo fugiat tenetur quisquam molestias.</p>
+      <div class="container">
+        <h1>Testimonials</h1>
         <div class="row">
-          <div class="col-md-4">
-            <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nobis repellat suscipit . <br><i class="fa fa-twitter"></i><span>@username</span></p>
-            <img src="images/user1.jpg">
+          <div class="col-md-4 col-sm-12 testimonial-item">
+            <div class="testimonial-content">
+              <img src="images/user1.jpg" alt="Testimonial 1">
+              <p>"Great service and amazing trainers!"</p>
+              <h4>- Customer 1</h4>
+            </div>
           </div>
-          
-          <div class="col-md-4 middle">
-            <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nobis repellat suscipit . <br><i class="fa fa-twitter-square" ></i><span>@username</span></p>
-            <img src="images/user2.jpg">
+          <div class="col-md-4 col-sm-6 testimonial-item">
+            <div class="testimonial-content">
+              <img src="images/user2.jpg" alt="Testimonial 2">
+              <p>"Highly recommended for anyone looking to improve."</p>
+              <h4>- Customer 2</h4>
+            </div>
           </div>
-
-          <div class="col-md-4">
-            <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nobis repellat suscipit . <br><i class="fa fa-twitter"></i><span>@username</span></p>
-            <img src="images/user3.jpg">
+          <div class="col-md-4 col-sm-12 testimonial-item">
+            <div class="testimonial-content">
+              <img src="images/user3.jpg" alt="Testimonial 3">
+              <p>"Superb service with remarkable trainer"</p>
+              <h4>- Customer 3</h4>
+            </div>
           </div>
         </div>
       </div>
     </section>
-
+    
     <!-- Subscribe-Section -->
 
     <section class="subscribe">
       <div class="container">
-        <div class=" subscribe text-center">
-          <h3>Join For Free Trial Now</h3>
-          <p>Subscibe our Newslatter and get 30 days trial free</p>
-          <div class="input-group">
-            <input type="email" class="form-control" placeholder="Enter your Email here">
-            <div class="input-group-append">
-              <button type="submit" class="input-group-text btn">Subscribe</button>
-            </div>
+        <h3>Subscribe to Our Newsletter</h3>
+        <p>Stay updated with our latest news and offers.</p>
+        <div class="input-group">
+          <input type="email" class="form-control" placeholder="Enter your email" />
+          <div class="input-group-append">
+            <span class="input-group-text">Subscribe</span>
           </div>
-
         </div>
       </div>
     </section>
-
+    
     <!-- Footer-Section -->
 
     <section id="footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-7">
             <img src="images/logo.png" class="footer-logo" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dignissimos iusto numquam, dicta ab a minima soluta esse repellat voluptatibus.</p>
-          </div>
-
-          <div class="col-md-3">
-            <h1>features</h1>
-            <p>Certified Trainers</p>
-            <p>Free Consultation</p>
-            <p>Flexible Time</p>
-            <p>30 days Free Trail</p>
           </div>
 
           <div class="col-md-3">
@@ -221,23 +219,21 @@
             <p><i class="fa fa-phone-square"></i>+91 8115133446</p>
             <p><i class="fa fa-envelope"></i>contact@website.com</p>
             <p><i class="fa fa-home"></i>xyz Road, xyz complex</p>
-            <p class="city">City,Country</p>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-2">
             <h1>Follow Us On</h1>
-            <p><i class="fa fa-facebook"></i>Facebook</p>
-            <p><i class="fa fa-youtube"></i>Youtube</p>
-            <p><i class="fa fa-linkedin"></i>Linkedin</p>
-            <p><i class="fa fa-twitter"></i>Twitter</p>
+            <p><i class="fa-brands fa-facebook"></i>Facebook</p>
+            <p><i class="fa-brands fa-youtube"></i>Youtube</p>
+            <p><i class="fa-brands fa-linkedin"></i>Linkedin</p>
+            <p><i class="fa-brands fa-twitter"></i>Twitter</p>
            
           </div>
-        </div><hr>
-        <p id="copyright">Made with <i class="fa fa-heart-o"></i>by Easy Tutorials </p>
+        </div>
 
       </div>
     </section>
-
+    
     <!-- Smooth scroll js-->
     <script src="js/smooth-scroll.js"></script>
     <script>
